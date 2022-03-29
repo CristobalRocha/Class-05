@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width:300px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .contact [type="text"],[type="email"], textarea {
+        width: 95%;
+        font-family: 'Montserrat', sans-serif;
+        padding: 3%;
+
+    }
+
+    .footer {
+        background-color: navy;
+        color: white;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .footer > span {
+        font-weight: bold;
+    }
+}
+
+/* 
+1- Plan the sections from your page
+a) Footer
+b) Contact
+c) education
+d) skills
+e) projects
+f) about
+g) header
+ */
